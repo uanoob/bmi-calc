@@ -1,0 +1,23 @@
+{
+  "name": "bmi-calc",
+  "version": "0.1.0",
+  "description": "Body Mass Index Calculator",
+  "author": "uanoob",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uanoob/bmi-calc.git"
+  },
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
