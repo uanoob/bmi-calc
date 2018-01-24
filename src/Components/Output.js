@@ -19,7 +19,7 @@ class Output extends Component {
     let bmi = this.props.data.bmi;
     let bmiClass = this.props.data.bmiClass;
     return (
-      <div className="Output">
+      <div className="output">
         <h3>{height}</h3>
         <h3>{weight}lbs</h3>
         <h3>{bmi}</h3>

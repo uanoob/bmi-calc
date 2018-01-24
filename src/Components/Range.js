@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Range extends Component {
   state = {
@@ -12,7 +13,7 @@ class Range extends Component {
   };
 
   onChange = ivent => {
-    console.log(ivent.target.value);
+    // console.log(ivent.target.value);
     this.props.onChange(this.state.value);
     this.setState({ value: ivent.target.value });
   };
@@ -32,5 +33,11 @@ class Range extends Component {
     );
   }
 }
+
+Range.propTypes = {
+  min: PropTypes.number.isRequired,
+  max: PropTypes.number.isRequired,
+  step: PropTypes.number.isRequired
+};
 
 export default Range;
